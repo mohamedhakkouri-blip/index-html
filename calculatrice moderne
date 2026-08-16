@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice Moderne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <!-- Écran de la calculatrice -->
+        <input type="text" id="display" readonly value="0">
+
+        <!-- Pavé tactile / Boutons -->
+        <div class="buttons">
+            <button class="btn action" onclick="clearDisplay()">C</button>
+            <button class="btn action" onclick="deleteChar()">⌫</button>
+            <button class="btn operator" onclick="appendValue('/')">/</button>
+            <button class="btn operator" onclick="appendValue('*')">×</button>
+
+            <button class="btn" onclick="appendValue('7')">7</button>
+            <button class="btn" onclick="appendValue('8')">8</button>
+            <button class="btn" onclick="appendValue('9')">9</button>
+            <button class="btn operator" onclick="appendValue('-')">-</button>
+
+            <button class="btn" onclick="appendValue('4')">4</button>
+            <button class="btn" onclick="appendValue('5')">5</button>
+            <button class="btn" onclick="appendValue('6')">6</button>
+            <button class="btn operator" onclick="appendValue('+')">+</button>
+
+            <button class="btn" onclick="appendValue('1')">1</button>
+            <button class="btn" onclick="appendValue('2')">2</button>
+            <button class="btn" onclick="appendValue('3')">3</button>
+            <button class="btn equal" onclick="calculate()">=</button>
+
+            <button class="btn zero" onclick="appendValue('0')">0</button>
+            <button class="btn" onclick="appendValue('.')">.</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice Moderne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <!-- Écran de la calculatrice -->
+        <input type="text" id="display" readonly value="0">
+
+        <!-- Pavé tactile / Boutons -->
+        <div class="buttons">
+            <button class="btn action" onclick="clearDisplay()">C</button>
+            <button class="btn action" onclick="deleteChar()">⌫</button>
+            <button class="btn operator" onclick="appendValue('/')">/</button>
+            <button class="btn operator" onclick="appendValue('*')">×</button>
+
+            <button class="btn" onclick="appendValue('7')">7</button>
+            <button class="btn" onclick="appendValue('8')">8</button>
+            <button class="btn" onclick="appendValue('9')">9</button>
+            <button class="btn operator" onclick="appendValue('-')">-</button>
+
+            <button class="btn" onclick="appendValue('4')">4</button>
+            <button class="btn" onclick="appendValue('5')">5</button>
+            <button class="btn" onclick="appendValue('6')">6</button>
+            <button class="btn operator" onclick="appendValue('+')">+</button>
+
+            <button class="btn" onclick="appendValue('1')">1</button>
+            <button class="btn" onclick="appendValue('2')">2</button>
+            <button class="btn" onclick="appendValue('3')">3</button>
+            <button class="btn equal" onclick="calculate()">=</button>
+
+            <button class="btn zero" onclick="appendValue('0')">0</button>
+            <button class="btn" onclick="appendValue('.')">.</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
